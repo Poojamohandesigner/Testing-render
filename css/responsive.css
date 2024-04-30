@@ -1,0 +1,123 @@
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .header {
+        padding: 15px 0 50px 0;
+    }  
+    .custom-main-banner .carousel-control-next {
+        right: -20px;
+    }
+    .custom-main-banner .carousel-control-prev {
+        left: -20px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .header {
+        padding: 15px 0 50px 0;
+    } 
+    .custom-header-row-one .nav-item {
+        padding-left: 0px;
+    }
+    .custom-header-row-one {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    .logo {
+        width: 151px;
+    }
+    .custom-main-banner img {
+        width:40%;
+    }
+    .custom-main-banner .carousel-caption {
+        width:60%;
+    }
+    .custom-main-banner h3 {
+        font-size: 23px;
+    }
+    .custom-main-banner p {
+        font-size: 16px;
+    }
+    .article {
+        padding: 15px 0;
+    }
+    .article-row-one-column {
+        padding:15px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .header {
+        padding: 15px 0 50px 0;
+    }
+    .custom-header-row-one {
+        padding-bottom:15px;
+    }
+    .custom-main-banner img {
+        width:40%;
+    }
+    .custom-main-banner .carousel-caption {
+        width:60%;
+    }
+    .custom-main-banner .carousel-control-next {
+        right: 0;
+    }
+    .custom-main-banner .carousel-control-prev {
+        left: 0;
+    }
+    .custom-main-banner h3 {
+        font-size: 16px;
+    }
+    .custom-main-banner p {
+        font-size: 14px;
+    }
+    .article {
+        padding: 15px 0;
+    }
+    .article-row-one-column {
+        padding:15px;
+    }
+}
+@media only screen and (max-width:575px) {
+    .header {
+        padding: 15px 0 50px 0;
+    }
+    .logo {
+        width: 215px;
+    }
+    .custom-header-row-one {
+        padding-bottom:15px;
+    }
+    .custom-header-row-one .nav-item {
+        padding-left: 0;
+    }
+    .custom-main-banner .carousel-caption {
+        width: 100%;
+        position: static;
+        transform: translate(0px, 0px);
+        display: flex;
+        flex-direction: column;
+    }
+    .custom-main-banner h3 {
+        font-size:24px;
+        padding:15px 0;
+    }
+    .carousel-indicators {
+        bottom:-50px;
+    }
+    .custom-main-banner img {
+        width:100%;
+    }
+    .article {
+        padding: 15px 0;
+    }
+    .article-row-one-column {
+        padding:15px;
+    }
+    .custom-main-banner .carousel-control-next {
+        right: 0;
+        display:none;
+    }
+    .custom-main-banner .carousel-control-prev {
+        left: 0;
+        display:none;
+    }
+}
